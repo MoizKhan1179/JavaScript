@@ -17,3 +17,31 @@ for(i=0; i < products.length; i++ ){
     document.write(`<img src='${products[i][0]}' class=img1> <div class=container> <h1 class=img2>${products[i][1]}</h1> <h3 class=img3>${products[i][2]}</h3> <div class=img4>${products[i][3]}</div> <div class=img5>${products[i][4]}</div> </div>`)
 
 }
+.container{
+    margin-left: 10%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img1{
+    
+    margin: 0px;
+    background-size: 10px;
+  
+}
+
+.img2{}
+
+
+.img3{
+   color:  #565959;
+   font-size: 14px;
+}
+
+
+.img4{}
+
+
+.img5{}
